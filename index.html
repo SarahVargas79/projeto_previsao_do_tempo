@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão do Tempo</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/estilos.css">
+</head>
+
+<body>
+    <div class="caixa-maior">
+        <input class="input-cidade" placeholder="Digite a cidade">
+        <button onclick="clickNoBotao()"><img class="lupa"
+                src="https://cdn-icons-png.freepik.com/256/11034/11034892.png?ga=GA1.1.1511503095.1684600359&"
+                alt="Botão de Pesquisar"></button>
+
+        <div class="caixa-media">
+            <h2 class="cidade">Tempo em Porto Alegre</h2>
+
+            <p class="temp">21°C</p>
+            <img class="icone" src="https://openweathermap.org/img/wn/04n.png" alt="Nuvem">
+            <p class="texto-previsao">Nublado</p>
+
+            <p class="umidade">Umidade: 70%</p>
+        </div>
+    </div>
+    <script src="./src/js/script.js"></script>
+</body>
+
+</html>
